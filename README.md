@@ -1,5 +1,5 @@
 ## Android中Intent传递类对象的方法二(Parcelable)
-####上一篇博客写到了通过Serializable方式实现序列化的方法，没有看过的可以点击![Android中Intent传递类对象的方法一(Serializable)](http://blog.csdn.net/qq_20785431/article/details/51053974)，现在我们接着介绍另一种序列化方式：Android中Intent传递类对象的方法二(Parcelable)，Parcelable也是一个接口，只要实现了这个接口，一个类的对象就可以实现序列化并通过Intent和Binder传递。 
+####上一篇博客写到了通过Serializable方式实现序列化的方法，没有看过的可以点击[Android中Intent传递类对象的方法一(Serializable)](http://blog.csdn.net/qq_20785431/article/details/51053974)，现在我们接着介绍另一种序列化方式：Android中Intent传递类对象的方法二(Parcelable)，Parcelable也是一个接口，只要实现了这个接口，一个类的对象就可以实现序列化并通过Intent和Binder传递。 
 ####下面看一下实例的ProductModel.java
 ```Java
 package com.xiaolijuan.parcelabledome.model;
